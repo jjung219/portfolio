@@ -2,10 +2,11 @@
 #buttons {
   display: flex;
   flex-direction: column;
+  height: 2vh;
 }
 
 .btn-dark {
-  font-size: 18px;
+  font-size: 1.8vh;
   color: #fff;
   background: #333;
   padding: 13px 20px;
@@ -23,7 +24,7 @@
 }
 
 .btn-light {
-  font-size: 16px;
+  font-size: 1.7vh;
   color: #444;
   background: #b1d0cd;
   padding: 13px 20px;
@@ -41,7 +42,7 @@
 /* Heading */
 
 .header {
-  font-size: 26px;
+  font-size: 2.2vh;
   text-align: center;
   font-weight: bold;
   border: none;
@@ -54,4 +55,10 @@
 .section-container {
   padding: 40px 100px;
   color: #333;
+}
+
+@media (max-width: 768px) {
+  .section-container {
+    padding-top: 100px;
+  }
 }

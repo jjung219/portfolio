@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+#showcase {
+  background: url("/img/john-towner-JgOeRuGD_Y4-unsplash\ \(1\).jpg") no-repeat
+    center center/cover;
+  height: 60vh;
+}
+
+/* Navbar */
+.navbar {
+  background: #333;
+  color: #fff;
+  opacity: 0.8;
+  height: 6vh;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+
+/* Projects */
+.card-img-top {
+  max-height: 20rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 20px;
+  background: #444;
+  color: #f4f4f4;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 15px;
+}
+
+footer a:hover {
+  color: #b1d0cd;
+}
