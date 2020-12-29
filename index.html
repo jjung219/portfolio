@@ -22,13 +22,13 @@
       integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
     />
-  <link href="css/business-frontpage.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css" />
+  <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
 
 </head>
 
 <body>
-
+  
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
@@ -49,21 +49,19 @@
           <li class="nav-item">
             <a class="nav-link" href="resume.html">Resume</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Header -->
-  <header class="bg-primary py-5 mb-5" id="showcase">
+  <header class="py-5 mb-5" id="showcase">
+
     <div class="container h-100" >
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
-          <h1 class="display-4 text-white mt-5 mb-2">I am Jennifer, Full Stack Developer</h1>
-          <p class="lead mb-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam.</p>
+          <h1 class="display-4 text-white mt-5 mb-2">I'm Jennifer, Full Stack Developer</h1>
+          <p class="lead mb-5 text-white-50">Welcome. Check out my projects!</p>
         </div>
       </div>
     </div>
@@ -78,22 +76,24 @@
     <h2 id="projects">Projects</h2>
     <hr>
     <div class="row">
+      <!-- Project 1 -->
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="./img/project1.png" alt="portfolio website img">
+          <img class="card-img-top" src="./img/portfolio.png" alt="portfolio website img">
           <div class="card-body">
             <h4 class="card-title">Portfolio Website</h4>
-            <p class="card-text">This portfolio website was created using just HTML and CSS. It showscases all the projects that have been made.</p>
+            <p class="card-text">This portfolio website was created to showscase all the projects that have been made.</p>
           </div>
           <div class="card-body">
             <p class="card-text">Stacks: HTML, CSS, Bootstrap</p>
           </div>
-          <div class="card-footer">
+          <div class="card-footer text-center">
             <a href="#" class="btn btn-primary">Demo</a>
-            <a href="#" class="btn btn-primary">Code</a>
+            <a href="https://github.com/jjung219/portfolio" class="btn btn-primary" target="_blank">Code</a>
           </div>
         </div>
       </div>
+      <!-- Buy-Sell Listing App -->
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <img class="card-img-top" src="./img/moveit.png" alt="">
@@ -102,15 +102,16 @@
             <p class="card-text">Full stack web application that is used to buy and sell new or used furnitures.</p>
           </div>
           <div class="card-body">
-            <p class="card-text">Front-end: HTML, JS, Sass</p>
-            <p class="card-text">Back-end: NodeJS, Express, PostgreSQL</p>
+            <p class="card-text"><span>Front-end: HTML, CSS, JS</span><br>
+              <span>Back-end: NodeJS, Express, PostgreSQL</span></p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Demo</a>
-            <a href="#" class="btn btn-primary">Code</a>
+          <div class="card-footer text-center">
+            <a href="https://buy-sell-jj.herokuapp.com/" class="btn btn-primary" target="_blank">Demo</a>
+            <a href="https://github.com/jjung219/Buy-Sell-Listing-App" target="_blank" class="btn btn-primary" >Code</a>
           </div>
         </div>
       </div>
+      <!-- Interview Scheduler -->
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <img class="card-img-top" src="./img/scheduler-app.png" alt="">
@@ -119,78 +120,82 @@
             <p class="card-text">Single-page application used to modify interview bookings for students and interviewers.</p>
           </div>
           <div class="card-body">
-            <p class="card-text">Front-end: HTML, CSS, React</p>
-            <p class="card-text">Back-end: NodeJS, Express, PostgreSQL</p>
-            <p class="card-text">Testing: Jest Storybook, Cypress</p>
+            <p class="card-text"><span>Front-end: HTML, CSS, React</span><br>
+              <span>Back-end: NodeJS, Express, PostgreSQL</span><br>
+              <span>Testing: Jest, Storybook, Cypress</span></p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Demo</a>
-            <a href="#" class="btn btn-primary">Code</a>
+          <div class="card-footer text-center">
+            <a href="#" class="btn btn-primary disabled">Demo</a>
+            <a href="https://github.com/jjung219/scheduler" class="btn btn-primary" target="_blank">Code</a>
           </div>
         </div>
       </div>
+      <!-- TWEETER -->
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="./img/tweeter.png" alt="">
+          <img class="card-img-top" src="./img/tweeter1.png" alt="">
           <div class="card-body">
             <h4 class="card-title">Tweeter</h4>
             <p class="card-text">Twitter clone that displays a list of tweets entered by user.</p>
           </div>
           <div class="card-body">
-            <p class="card-text">Front-end: HTML, Sass, JS, jQuery</p>
-            <p class="card-text">Back-end: NodeJS, Express, Ajax</p>
+            <p class="card-text"><span>Front-end: HTML, Sass, JS, jQuery</span><br>
+              <span>Back-end: NodeJS, Express, Ajax</span></p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Demo</a>
-            <a href="#" class="btn btn-primary">Code</a>
+          <div class="card-footer text-center">
+            <a href="https://tweeter-jj.herokuapp.com/" class="btn btn-primary" target="_blank">Demo</a>
+            <a href="https://github.com/jjung219/tweeter" class="btn btn-primary" target="_blank">Code</a>
           </div>
         </div>
       </div>
+      <!-- TINYAPP -->
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="./img/tinyapp.png" alt="">
+          <img class="card-img-top" src="./img/tinyapp1.png" alt="">
           <div class="card-body">
             <h4 class="card-title">Tinyapp</h4>
             <p class="card-text">TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs</p>
           </div>
           <div class="card-body">
-            <p class="card-text">Front-end: HTML, CSS, JS</p>
-            <p class="card-text">Back-end: Express, NodeJS</p>
-            <p>Not deployed</p>
+            <p class="card-text">
+              <span>Front-end: HTML, CSS, JS</span><br>
+              <span>Back-end: Express, NodeJS</span><br>
+              <span>Testing: Mocha & Chai</span>
+            </p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary disabled">Demo</a>
-            <a href="#" class="btn btn-primary">Code</a>
+          <div class="card-footer text-center">
+            <a href="https://tinyapp-jj.herokuapp.com/" class="btn btn-primary" target="_blank">Demo</a>
+            <a href="https://github.com/jjung219/tinyapp" class="btn btn-primary" target="_blank">Code</a>
           </div>
         </div>
       </div>
     </div>
     <!-- /.row -->
+    <!-- <div id="skills" class="row">
+      <div class="col-md-8 mb-5">
+        <h2>What I Know</h2>
+        <hr>
+        <div>
+          <h4>Front-End</h4>
+            <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5">
+            <img class="skill_img" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS3">
+                <img class="skill_img" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="javascript">
+            <img class="skill_img" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React">
+        </div>
+        <div>
+          <h4>Back-End</h4>
+          <img class="skill_img" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Node.Js">
+          <img class="skill_img" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png" alt="Express.Js">
+        </div>
+      </div>
+    </div> -->
+           
 
     <div class="row">
       <div class="col-md-8 mb-5">
-        <h2>What We Do</h2>
+        <h2>Recent Blog</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-        <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
-      </div>
-      <div class="col-md-4 mb-5">
-        <h2>Contact Me</h2>
-        <hr>
-        <address>
-          <strong>Start Bootstrap</strong>
-          <br>3481 Melrose Place
-          <br>Beverly Hills, CA 90210
-          <br>
-        </address>
-        <address>
-          <abbr title="Phone">LinkedIn:</abbr>
-          <a href="">jjung219</a>
-          <br>
-          <abbr title="Email">Email:</abbr>
-          <a href="mailto:#">jenjung2194@gmail.com</a>
-        </address>
+        <p>No posts yet!</p>
       </div>
     </div>
 
@@ -208,14 +213,18 @@
           ><i class="fab fa-github fa-2x"></i
         ></a>
       </div>
-      <p class="m-0 text-center text-white">Copyright &copy; Jennifer Jung 2020</p>
+      <div class="footer-copyright">
+        <p class="m-0 text-center text-white">Copyright &copy; Jennifer Jung 2020</p>
+      </div>
     </div>
     <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 
 </body>
 
