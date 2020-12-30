@@ -1,3 +1,9 @@
 #skills li img{
   max-height: 4rem;
 }
+
+#skills .dev-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}

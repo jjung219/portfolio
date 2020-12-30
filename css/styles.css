@@ -17,8 +17,8 @@ body {
 .navbar {
   background: #333;
   color: #fff;
-  opacity: 0.8;
   z-index: 10;
+  max-height: 6vh;
 }
 
 /* Projects */
