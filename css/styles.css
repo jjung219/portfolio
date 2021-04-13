@@ -8,20 +8,29 @@ body {
 }
 
 #showcase {
-  background: url("/img/landing2.jpg") no-repeat
+  background: url("/img/markus-spiske-s05XKB6jK2c-unsplash.jpg") no-repeat
     center center/cover;
   height: 60vh;
 }
 
+#showcase .main-message,
+#showcase .welcome-message {
+  font-weight: 600;
+  color: #333;
+}
 .container {
-
 }
 
 /* Navbar */
 .navbar {
   background: #333;
-  color: #fff;
+  color: #222;
   z-index: 10;
+  opacity: 0.8;
+}
+
+.navbar .nav-item a {
+  color: #222;
 }
 
 /* Projects */
@@ -30,6 +39,10 @@ body {
 }
 
 /* Footer */
+.footer {
+  background-color: #555;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -42,7 +55,6 @@ footer {
 footer a {
   color: #444;
   margin: 0 15px;
-  
 }
 
 footer a i {
@@ -64,4 +76,3 @@ footer a:hover {
 footer .footer-copyright {
   margin-top: 1rem;
 }
-
