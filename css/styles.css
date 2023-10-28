@@ -20,7 +20,8 @@ body {
 #showcase .welcome-message {
   font-weight: 600;
   color: #fff;
-  padding: 0 30px;
+  padding: 0 50px;
+  text-align: center;
 }
 
 .main-message {
@@ -149,6 +150,11 @@ footer .footer-copyright {
   .wave-3 {
     background-size: 100% 50px;
     animation: animate 18s linear infinite;
+  }
+
+  #showcase .main-message,
+  #showcase .welcome-message {
+    padding: 0 20px;
   }
   
 }
